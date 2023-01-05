@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+}
+
+/* awal navbar */
+.container-hompage {
+  width: 100%;
+  height: 100vh;
+
+  background-color: rgb(209, 210, 210);
+}
+.container-hompage .hh2 {
+  font-family: 'Courgette', cursive;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.container-hompage .heder {
+  width: 100%;
+  height: 40px;
+  margin-left: 270px;
+  background-color: #ebe9e9;
+  position: relative;
+}
+.h2 {
+  /* font-family: 'Pacifico', cursive; */
+  font-family: 'Francois One', sans-serif;
+  letter-spacing: 2.1px;
+  font-size: 1.7em;
+  margin-left: 10px;
+  animation: label 7s ease-in-out infinite alternate both;
+}
+@keyframes label {
+  0% {
+    margin-left: 10px;
+  }
+
+  100% {
+    margin-left: 870px;
+  }
+}
+.container-hompage .navbar {
+  width: 275px;
+  height: 100%;
+  background-color: rgb(1, 68, 123);
+  padding: 20px 1px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.container-hompage .navbar img {
+  width: 150px;
+}
+
+/* awal home */
+.container-hompage .navbar .home:hover {
+  background-color: rgba(23, 96, 156, 0.5);
+  border-radius: 7px;
+}
+.container-hompage .navbar .home {
+  width: 100%;
+  padding: 15px 160px 15px 15px;
+  background-color: rgba(13, 82, 139, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 3px 0;
+}
+.navbar .home button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+/* akhir home */
+
+/* awal obat */
+.container-hompage .navbar .obat:hover {
+  background-color: rgba(23, 96, 156, 0.5);
+  border-radius: 7px;
+}
+.container-hompage .navbar .obat {
+  width: 100%;
+  padding: 15px 165px 15px 15px;
+  background-color: rgba(13, 82, 139, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 3px 0;
+}
+.navbar .obat .img {
+  width: 25px;
+}
+.navbar .obat button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+/* akhir obat */
+
+/* awal satuan */
+.container-hompage .navbar .satuan:hover {
+  background-color: rgba(23, 96, 156, 0.5);
+  border-radius: 7px;
+}
+.container-hompage .navbar .satuan {
+  width: 100%;
+  padding: 15px 147px 15px 15px;
+  background-color: rgba(13, 82, 139, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 3px 0;
+}
+.navbar .satuan .img {
+  width: 25px;
+}
+.navbar .satuan button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+/* akhir satuan */
+
+/* awal suplier */
+.container-hompage .navbar .suplier:hover {
+  background-color: rgba(23, 96, 156, 0.5);
+  border-radius: 7px;
+}
+.container-hompage .navbar .suplier {
+  width: 100%;
+  padding: 15px 143px 15px 15px;
+  background-color: rgba(13, 82, 139, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3px 0;
+}
+.navbar .suplier .img {
+  width: 25px;
+}
+.navbar .suplier button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+/* akhir suplier */
+
+/* awal user */
+.container-hompage .navbar .user:hover {
+  background-color: rgba(23, 96, 156, 0.5);
+  border-radius: 7px;
+}
+.container-hompage .navbar .user {
+  width: 100%;
+  padding: 15px 162px 15px 15px;
+  background-color: rgba(13, 82, 139, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 3px 0;
+}
+.navbar .user .img {
+  width: 25px;
+}
+.navbar .user button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+/* akhir user */
+
+/* awal penjualan */
+.container-hompage .navbar .penjualan:hover {
+  background-color: rgba(23, 96, 156, 0.5);
+  border-radius: 7px;
+}
+.container-hompage .navbar .penjualan {
+  width: 100%;
+  padding: 15px 126px 15px 15px;
+  background-color: rgba(13, 82, 139, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 3px 0;
+}
+.navbar .penjualan .img {
+  width: 25px;
+}
+.navbar .penjualan button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+/* akhir penjualan */
+
+/* awal pembelian */
+.container-hompage .navbar .pembelian:hover {
+  background-color: rgba(23, 96, 156, 0.5);
+  border-radius: 7px;
+}
+.container-hompage .navbar .pembelian {
+  width: 100%;
+  padding: 15px 126px 15px 15px;
+  background-color: rgba(13, 82, 139, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 3px 0;
+}
+.navbar .pembelian .img {
+  width: 25px;
+}
+.navbar .pembelian button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+/* akhir pembelian */
+
+/* awal logout */
+.container-hompage .navbar .logout:hover {
+  background-color: rgba(23, 96, 156, 0.5);
+  border-radius: 7px;
+}
+.container-hompage .navbar .logout {
+  width: 100%;
+  padding: 15px 150px 15px 15px;
+  background-color: rgba(13, 82, 139, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 3px 0;
+}
+.navbar .logout .img {
+  width: 25px;
+}
+.navbar .logout button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+/* akhir logout */
+
+/* awal content */
+h3 {
+  font-family: 'Francois One', sans-serif;
+  font-weight: 100;
+}
+.content {
+  width: 70%;
+  height: 150px;
+  margin-left: 275px;
+  margin-top: 20px;
+  padding: 10px;
+  display: grid;
+  grid-template-areas: 'obat penjualan pembelian';
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+/* awal content-obat */
+.content-obat {
+  grid-area: obat;
+  background-color: #fff;
+  padding: 15px 5px 5px;
+  box-shadow: 5px 5px 5px #a5a5a5;
+  border-top-right-radius: 15px;
+}
+
+.content .content-obat img {
+  width: 60px;
+  height: 60px;
+}
+/* akhir content-obat */
+/* awal penjualan */
+.content-penjualan {
+  grid-area: penjualan;
+  background-color: #fff;
+  padding: 15px 5px 5px;
+  box-shadow: 5px 5px 5px #a5a5a5;
+  border-top-right-radius: 15px;
+}
+.content .content-penjualan img {
+  width: 60px;
+  height: 60px;
+}
+/* akhir penjualan */
+.content-pembelian {
+  grid-area: pembelian;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 5px 5px 5px #a5a5a5;
+  border-top-right-radius: 15px;
+}
+.content .content-pembelian img {
+  width: 60px;
+  height: 60px;
+}
+/* akhir content */
+
+.content1 {
+  width: 78%;
+  height: 450px;
+  /* border: 1px solid black; */
+  margin-left: 275px;
+  display: grid;
+  grid-template-areas: 'colom1 colom2';
+  gap: 5px;
+}
+.artikel {
+  padding-top: 100px;
+  padding-left: 50px;
+  grid-area: colom1;
+  /* border: 1px solid black; */
+  width: 400px;
+  position: relative;
+}
+.gambar {
+  /* border: 1px solid black; */
+  width: 600px;
+  grid-area: colom2;
+  background-image: url('../image/ilustrator.svg');
+  background-size: cover;
+}
+h2 {
+  color: rgb(30, 32, 33);
+  /* font-family: 'Courgette', cursive; */
+  font-family: 'Francois One', sans-serif;
+  font-weight: 200;
+  font-size: 1.7em;
+}
+p {
+  font-family: 'Francois One', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: #25233a;
+  font-size: 1.3em;
+}
+.copyright {
+  font-size: 10px;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  bottom: 10px;
+  left: 0;
+}

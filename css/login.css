@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+@keyframes pan {
+  100% {
+    background-position: 15% 50%;
+  }
+}
+
+body {
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: 0 24px;
+  background-image: url(../image/bg1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: pan 6s infinite alternate linear;
+}
+/* css untuk register */
+.container {
+  width: 400px;
+  padding: 50px 30px 40px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  border-radius: 24px;
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.38);
+}
+.container h2 {
+  font-weight: 600;
+  font-size: 36px;
+  margin: 1px 0;
+}
+.container h3 {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.38);
+  margin: 1px 0;
+}
+.container .eror {
+  font-weight: bold;
+  color: red;
+  font-style: italic;
+}
+input,
+button {
+  display: block;
+  width: 300px;
+  height: 56px;
+  margin: 15px 0;
+  padding: 0 15px;
+  border-radius: 8px;
+  border: 2px solid #dad6d6;
+}
+
+button {
+  background-color: #216ce7;
+  color: #f9f9f9;
+  font-weight: 600;
+  border: 0;
+  cursor: pointer;
+  text-shadow: 1px 3px 3px black;
+  font-size: 1.2rem;
+  transition: 0.5s ease;
+}
+button:hover {
+  background-color: #5e47ef;
+  border: 2px solid #799be6;
+  box-shadow: 0 0 10px #799be6 inset, 0 0 10px #799be6;
+  border-radius: 10px;
+}
+.container .remember {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin: 0;
+}
+label {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.38);
+}
+/* akhir register */
