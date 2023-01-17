@@ -75,6 +75,7 @@ if (isset($_POST['submit'])) {
                         "'] = {harga_jual:'" .
                         addslashes($row['harga_jual']) .
                         "'};\n"; ?>
+
                     <?php endwhile; ?>
                      </select>
         </div>

@@ -71,7 +71,7 @@ $no = 1;
             <h2>Page Obat</h2>
             
         </div>
- 
+   //Alert untuk stock ketika habis
         <?php $cekstock = mysqli_query(
             $conn,
             'SELECT * FROM obat WHERE stock < 1'
